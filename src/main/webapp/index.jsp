@@ -2,11 +2,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Login Page</title>
+    <title>Login</title>
 </head>
 <body>
 
-<h2>User Login</h2>
+<h2>Login Page</h2>
 
 <form method="post">
     Username: <input type="text" name="username" required><br><br>
@@ -20,7 +20,7 @@
 
     if(user != null && pass != null){
         if(user.equals("admin") && pass.equals("1234")){
-            out.println("<h3 style='color:green;'>Login Successful</h3>");
+            response.sendRedirect("success.jsp"); // 👉 go to another page
         } else {
             out.println("<h3 style='color:red;'>Login Failed</h3>");
         }
