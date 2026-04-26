@@ -20,9 +20,9 @@
 
     if(user != null && pass != null){
         if(user.equals("admin") && pass.equals("1234")){
-            response.sendRedirect("success.jsp"); // 👉 go to another page
+            response.sendRedirect(request.getContextPath() + "/success.jsp");
         } else {
-            out.println("<h3 style='color:red;'>Login Failed</h3>");
+            response.sendRedirect(request.getContextPath() + "/fail.jsp");
         }
     }
 %>
