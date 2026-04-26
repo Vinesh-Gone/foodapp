@@ -28,7 +28,7 @@
 </head>
 <body>
 
-<h1>🍔 Food Menu</h1>
+<h1>pistahouse Food Menu</h1>
 
 <div class="menu">
     <div class="item">
