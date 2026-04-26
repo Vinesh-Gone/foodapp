@@ -6,8 +6,8 @@
 </head>
 <body>
 
-<h2 style="color:green;">Login Successful!</h2>
-<h3>Welcome to Home Page</h3>
+<h2 style="color:green;">Login Successful</h2>
+<h3>Welcome, Admin!</h3>
 
 </body>
 </html>
