@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h2 style="color:green;">Login Successful</h2>
+<h2 style="color:green;">congratualation</h2>
 <h3>Welcome, Admin!</h3>
 
 </body>
